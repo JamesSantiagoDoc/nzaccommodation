@@ -1,0 +1,107 @@
+/* header section */
+.header{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 200px;
+    justify-content: space-between;
+}
+
+
+.header img{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+
+h1 {
+    margin: 0;
+    color:white;
+    font-size: 100px;
+    font-family: 'Lily Script One', cursive;
+}
+
+p {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.flex_header2{
+    text-align: center;
+}
+
+
+
+/* radio buttons */
+
+
+
+
+
+
+
+
+
+
+/* center section */
+
+
+
+
+#accomodationOptions, #selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card {
+    text-align: center;
+}
+
+
+
+/* Modal */
+
+/* .hidden {
+    visibility: hidden;
+    
+} */
+
+
+/* footer section */
+
+.footer img{
+    width: 100vw;
+    height: 225px;
+    padding-top: 7vw;
+    
+}
+
+
+@media screen and (max-width:768px) {#accomodationOptions, #selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}.header img{
+    width: 100px;
+    height: 100px;
+}
+
+.header{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 200px;
+    justify-content: space-between;
+}
+
+h1{
+    font-size:50px;
+}
+
+
+
+
+
+}
